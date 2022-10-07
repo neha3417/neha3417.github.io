@@ -5,7 +5,7 @@ html {
 
 h1 {
     font-family: Eina 01, "Trebuchet MS", Arial, sans-serif; 
-    font-size: 40px; font-style: normal; 
+    font-size: 45px; font-style: normal; 
     font-variant: normal; font-weight: 700; 
     line-height: 26.4px;    
 }
@@ -107,11 +107,16 @@ p {
     } */
 
     .aboutTitle {
-        padding: 25px;
+        padding-left: 300px;
+        padding-top: 30px;
     }
 
     .contactName {
-        padding-left: 40px;
+        padding-left: 100px;
+    }
+
+    .galleryTitle {
+        padding-left: 100px;
     }
 
     .homeName {
