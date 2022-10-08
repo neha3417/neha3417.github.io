@@ -106,11 +106,21 @@ p {
         justify-content: center;
     } */
 
-    .aboutTitle h1{
+    .aboutTitle h1 {
         padding-left: 300px;
         padding-top: 30px;
     }
 
+    .placeholderPerson {
+        float:left;
+        height: 100px;
+        width: 100px;
+        padding-left: 100px;
+    }
+
+    .aboutTitle p {
+        padding-left: 300px;
+    }
     .contactName {
         padding-left: 100px;
     }
