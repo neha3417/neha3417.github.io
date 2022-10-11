@@ -106,6 +106,22 @@ p {
         justify-content: center;
     } */
 
+    .surpiseButton {
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    button {
+        padding: 1em 1.2em;
+        background: #89a1f2;
+        color: white;
+        font-size: 20px;
+        border-radius: .3em;
+        border: none;
+        border-bottom: 4px solid #141a6b;
+        cursor: pointer;
+
+    }
     .aboutTitle h1 {
         padding-left: 300px;
         padding-top: 30px;
