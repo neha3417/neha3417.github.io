@@ -10,10 +10,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
-const insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
-const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
-const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
+const storyText = 'It was 2 degrees fahrenheit outside, so it was pretty cold. :insertx: went for a walk. When they got to :inserty:, they decided to get some snacks and perhaps a beverage, then :insertz:. Bob saw everything but is horrified of confrontation and therefore did nothing. I guess they couldnt be that upset — :insertx: weighs 4000 pounds, and maybe snacks werent the best idea.';
+const insertX = ['Your absolute best friend', 'The window cleaners across the street', 'That person you saw in the hallway once and forgot about'];
+const insertY = ['the C4C Italian section', 'Universal', 'movie theater that only plays Nemo'];
+const insertZ = ['cried and then exploded while spilling a hot coffee', 'failed an exam and prompty dropped out of college', 'picked up some trash on the sidewalk and got bonked by the Buff bus'];
 
 //3. EVENT LISTENER AND PARTIAL FUNCTION DEFINITION
 
