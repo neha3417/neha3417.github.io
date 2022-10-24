@@ -6,6 +6,14 @@ h1 {
     text-align: center;
 }
 
+p { 
+    font-family: open-sans, sans-serif;
+    font-weight: 300; 
+    font-size: 15px;   
+    font-style: normal;
+    text-align: center;
+}
+
 body {
   width: 700px;
   margin: 0 auto;
