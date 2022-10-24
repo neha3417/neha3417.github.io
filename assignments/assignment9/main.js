@@ -6,7 +6,7 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
-const images = ['abstract.PNG', `david.PNG`, `forg.PNG`, `lilshop.PNG`, `museum.PNG`]
+const images = ['abstract.PNG', `david.PNG`, `forg.PNG`, `lilshop.PNG`, `museum.PNG`];
 
 /* Declaring the alternative text for each image file */
 
