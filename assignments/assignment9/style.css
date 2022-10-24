@@ -6,29 +6,32 @@ h1 {
     text-align: center;
 }
 
-.img {
-    width: 40px;
-    height: 80px;   
-}
-
 body {
-  width: 750px;
+  width: 700px;
   margin: 0 auto;
 }
 
 .full-img {
   position: relative;
   display: block;
-  width: 800px;
-  height: 1000px;
+  width: 700px;
+  height: 960px;
+}
+
+.displayed-img {
+    position: relative;
+    display: block;
+    margin: auto;
+    max-width: 700px;
+    max-height: 960px;
 }
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 750px;
-  height: 1000px;
+  width: 700px;
+  height: 960px;
   background-color: rgba(0,0,0,0);
 }
 
@@ -44,6 +47,8 @@ button {
 }
 
 .thumb-bar img {
+  position: sticky;
+  top: 0;
   display: block;
   width: 20%;
   float: left;
