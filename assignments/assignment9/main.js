@@ -25,7 +25,7 @@ const alt = {
 for (const image of images) {
     const newImage = document.createElement('img');
     newImage.setAttribute('src', `images/${image}`);
-    newImage.setAttribute('alt', alts[image]);
+    newImage.setAttribute('alt', alt[image]);
     thumbBar.appendChild(newImage);
     newImage.addEventListener('click', e => {
       displayedImage.src = e.target.src;
