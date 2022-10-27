@@ -89,6 +89,7 @@ while (balls.length < 25) {
   );
 
   balls.push(ball);
+  
 }
 
 function loop() {
