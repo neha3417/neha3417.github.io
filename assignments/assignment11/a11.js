@@ -17,7 +17,7 @@ const imgButton = document.getElementById('btn-img');
 imgButton.addEventListener('click', fetchRandImg);
 
 function fetchRandImg() {
-  fetch('https://random.imagecdn.app/500/150')
+  fetch('https://aws.random.cat/meow')
 
     .then(response => response.json())
     .then(data => {
