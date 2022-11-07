@@ -4,7 +4,8 @@ quoteButton.addEventListener('click', getQuote);
 
 async function getQuote(){
     console.log("button clicked");
-    const endpoint = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
+    // const endpoint = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
+    const endpoint = 'https://api.jokes.one';
     try{
         const res = await fetch(endpoint)
         if (!res.ok){
