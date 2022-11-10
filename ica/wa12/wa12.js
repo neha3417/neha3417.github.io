@@ -61,5 +61,12 @@ const resetButton = document.querySelector('.reset-button').addEventListener('cl
 const submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
 const randomButton = document.querySelector('.random-button').addEventListener('click', random);
 
+var slider = document.getElementById("myRange");
+var sliderSubmit = document.querySelector(".slider-submit-button").addEventListener('click', update);
+var sliderOutput = document.querySelector(".slider-output");
 
-var slider = document.
+
+// Update the current slider value (each time you drag the slider handle)
+function update() {
+  sliderOutput.textContent = slider.value;
+}
