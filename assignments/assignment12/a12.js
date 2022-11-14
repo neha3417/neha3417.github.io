@@ -58,15 +58,64 @@ console.log(outputInt);
 //const minusButton = document.querySelector('.minus-button').addEventListener('click', minus);
 //const plusButton = document.querySelector('.plus-button').addEventListener('click', plus);
 //const resetButton = document.querySelector('.reset-button').addEventListener('click', reset);
-//const submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
+const yesButton = document.querySelector('.yes-button').addEventListener('click', submit);
 const randomButton = document.querySelector('.random-button').addEventListener('click', random);
 
-// var slider = document.getElementById("myRange");
-// var sliderSubmit = document.querySelector(".slider-submit-button").addEventListener('click', update);
-// var sliderOutput = document.querySelector(".slider-output");
 
+// const canvas = document.querySelector('canvas');
+// const ctx = canvas.getContext('2d');
 
-// // Update the current slider value (each time you drag the slider handle)
-// function update() {
-//   sliderOutput.textContent = slider.value;
-// }
+// const width = canvas.width = window.innerWidth;
+// const height = canvas.height = window.innerHeight;
+
+// var canvas = document.querySelector("canvas");
+ 
+//             canvas.width = window.innerWidth;
+//             canvas.height = window.innerHeight;
+ 
+//             var l = canvas.getContext('2d');
+ 
+//             // x and y are the co-ordinates of the circle
+ 
+//             // vx and vy are the respective speeds
+ 
+//             var x = Math.floor(Math.random() * innerWidth);
+//             var y = Math.floor(Math.random() * innerHeight);
+//             var vx = Math.floor(Math.random() * 2);
+//             var vy = Math.floor(Math.random() * 4);
+//             var radius = 20;
+ 
+//             move();
+           
+//             // This function will do the animation
+//             function move() {
+//                 requestAnimationFrame(move);
+ 
+//                 // It clears the specified pixels within
+//                 // the given rectangle
+//                 l.clearRect(0, 0, innerWidth, innerHeight);
+ 
+//                 // Creating a circle
+//                 l.beginPath();
+//                 l.strokeStyle = "black";
+//                 l.arc(x, y, radius, 0, Math.PI * 2, false);
+//                 l.stroke();
+ 
+//                 // Conditions sso that the ball bounces
+//                 // from the edges
+//                 if (radius + x > innerWidth)
+//                     vx = 0 - vx;
+ 
+//                 if (x - radius < 0)
+//                     vx = 0 - vx;
+ 
+//                 if (y + radius > innerHeight)
+//                     vy = 0 - vy;
+ 
+//                 if (y - radius < 0)
+//                     vy = 0 - vy;
+ 
+//                 x = x + vx;
+//                 y = y + vy;
+ 
+//             }
