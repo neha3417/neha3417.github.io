@@ -11,14 +11,14 @@ h1 {
 }
 
 h3 { 
-    font-family: Eina 01, "Trebuchet MS", Arial, sans-serif; 
-    font-size: 24px; font-style: semibold; 
+    font-family: futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 20px; font-style: semibold; 
     font-variant: normal; 
     font-weight: 700; line-height: 15.4px; 
 } 
 
 h4 { 
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-family: futura, "Trebuchet MS", Arial, sans-serif; 
     font-size: 18px; font-style: bold; 
     font-variant: normal; 
     font-weight: 400; line-height: 20px; 
@@ -33,7 +33,7 @@ h5 {
 
 h6 { 
     font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
-    font-size: 15px; font-style: normal; 
+    font-size: 16px; font-style: normal; 
     font-variant: normal; 
     font-weight: 400; line-height: 20px; 
 }
@@ -162,6 +162,41 @@ p {
         padding-left: 100px;
     }
 
+    .info h6, h2, h3, h4, p{
+        padding-left: 100px;
+    }
+
+    .info p {
+        padding-bottom: 1px;
+    }
+
+    .redbubble p {
+        padding-bottom: 18px;
+    }
+
+    .insta p{
+        padding-bottom: 3px;
+    }
+
+    a:link, a:visited {
+        color: #0c72b6;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: rgb(82, 105, 250);
+    }
+
+    .instagram {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        list-style: none;
+        margin: 0;
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+
     .galleryTitle {
         padding-left: 100px;
     }
@@ -169,11 +204,15 @@ p {
     .galPhotos {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 4px;
+        gap: 24px;
         list-style: none;
         margin: 0;
         padding-left: 50px;
         padding-right: 20px;
+    }
+    
+    .resumePic {
+        padding-left: 200px;
     }
 
     .resume {
