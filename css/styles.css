@@ -135,18 +135,28 @@ p {
     
     .aboutTitle h1 {
         padding-left: 300px;
-        padding-top: 30px;
+        margin-top: -10px;
     }
 
-    .placeholderPerson {
+    .profilePicture {
         float:left;
-        height: 100px;
-        width: 100px;
-        padding-left: 100px;
+        height: 170px;
+        width: 170px;
+        padding-left: 80px;
+    }
+    .aboutPhotos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 4  px;
+        list-style: none;
+        margin: 0;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .aboutTitle p {
         padding-left: 300px;
+        padding-bottom: 20px;
     }
     .contactName {
         padding-left: 100px;
@@ -176,6 +186,12 @@ p {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
+    }
+
+    body {
+        margin: 5;
+        background: rgb(255, 255, 255);
+        overflow: hidden;
     }
     
     body {

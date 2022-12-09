@@ -135,16 +135,12 @@ p {
 
     
     .aboutTitle h1 {
-        padding-left: 300px;
-        padding-top: 20px;
-        
+        padding-left: 100px;
+
     }
 
     .profilePicture {
         float:left;
-        max-height: 200px;
-        max-width: 200px;
-        padding-left: 100px;
     }
 
     .aboutTitle p {
