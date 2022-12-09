@@ -168,12 +168,20 @@ p {
 
     .galPhotos {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 4px;
         list-style: none;
         margin: 0;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+
+    .resume {
+        padding-left: 100px;
+    }
+
+    .javascript {
+        padding-left: 100px;
     }
 
     .homeName {
