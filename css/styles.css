@@ -191,14 +191,9 @@ p {
     body {
         margin: 5;
         background: rgb(255, 255, 255);
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     
-    body {
-        margin: 5;
-        background: rgb(255, 255, 255);
-        overflow: hidden;
-    }
 
     nav {
         padding: 1.5em;
