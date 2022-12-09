@@ -166,6 +166,16 @@ p {
         padding-left: 100px;
     }
 
+    .galPhotos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4px;
+        list-style: none;
+        margin: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .homeName {
         height: 35em;
         display: flex;
@@ -191,7 +201,7 @@ p {
     body {
         margin: 5;
         background: rgb(255, 255, 255);
-        /* overflow: hidden; */
+        overflow-x: hidden;
     }
     
 
