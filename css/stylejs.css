@@ -264,6 +264,13 @@ a:hover {
     color: rgb(82, 105, 250);
 }
 
+.playing {
+    transform: scale(1.5);
+    border-color: #e8faff;
+    box-shadow: 0 0 1rem #90e8fc;
+  }
+  
+
 
 
 
