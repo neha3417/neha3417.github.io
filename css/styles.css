@@ -239,7 +239,7 @@ p {
         position: sticky;
         top: 0;
         font-family: futura-pt, "Trebuchet MS", Arial, sans-serif; 
-        font-size: 21px; font-style: normal; 
+        font-size: 12px; font-style: normal; 
         font-variant: medium; 
         font-weight: 400; line-height: 20px; 
     }
@@ -248,7 +248,7 @@ p {
         margin: 0;
         padding: 0;
         list-style: none;
-        padding-left: 30px  ;
+        padding-left: 300px;
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
@@ -257,7 +257,7 @@ p {
     nav a {
         color: rgb(78, 61, 61);
         text-decoration: none;
-        padding: .5em 1em;
+        padding-left: 400px;
     } 
 }
 
