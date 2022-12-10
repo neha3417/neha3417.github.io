@@ -1,18 +1,20 @@
+//play noise
 
-
-function playNoise(e) {
-    const sound = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+function playSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const keys = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
-    if (!audio) return;
-
+    if (!audio) return null;
     keys.classList.add("playing");;
     audio.currentTime = 0;
     audio.play();
 
-    stopTime(function(){
+    setTimeout(function(){
         keys.classList.remove("playing");
     }, 100);
 }
 
-window.addEventListener("keydown", playNoise);
+//event listener
+
+window.addEventListener("keydown", playSound);
+

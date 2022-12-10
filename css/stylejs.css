@@ -1,5 +1,5 @@
 
-  html {
+html {
     font-family: sans-serif;
 }
 
@@ -51,7 +51,7 @@ p {
     font-size: 15px;   
     font-style: normal;
 }
-
+/* 
 .button {
     font-family: futura-pt, sans-serif;
     font-weight: 700;
@@ -65,17 +65,23 @@ p {
     border: none;
     border-bottom: 12px solid #0b1f85;
     cursor: pointer;
-  }
+} */
+
+
   
-  body {
-    background-image: ;
+.javascript {
+    padding-left: 100px;
+}
+
+body {
+
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-  }
+}
 
-  nav {
-    padding: 1.5em;
+nav {
+    padding: 1.89em;
     position: sticky;
     top: 0;
     font-family: futura-pt, "Trebuchet MS", Arial, sans-serif; 
@@ -99,15 +105,72 @@ nav a {
     padding: .5em 1em;
 } 
   
-  .keys {
+/* .keys {
     display: flex;
     flex: 1;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-  }
+} */
   
-  .key {
+
+.drum {
+    position: relative;
+	width: 600px;
+	margin: -100px auto 0;
+}
+
+.drum-kit {
+    width: 640px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .drum-kit {
+    max-width: 640px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
+/* .drumKeys {
+	display: inline-block;
+	transition: all ease-in-out .042s;
+	position: absolute;
+	background: #59b1f5;
+    font-size: 1.5em;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border-radius: 4px;
+    border: 3px solid rgb(6, 63, 132);
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.65);
+    z-index: 2;
+} */
+
+.key {
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;   
+	display: inline-block;
+	transition: all ease-in-out .042s;
+	position: absolute;
+	background: #8be8ff;
+    /* height: 32px;
+    width: 32px; */
+    border-radius: 4px;
+    border: 4px solid rgb(55, 149, 217);
+    color: rgb(14, 31, 109);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.65);
+    z-index: 2;
+}
+
+/* .drumKeys {
     border: 0.4rem solid black;
     border-radius: 0.5rem;
     margin: 1rem;
@@ -119,23 +182,108 @@ nav a {
     color: white;
     background: rgba(0, 0, 0, 0.4);
     text-shadow: 0 0 0.5rem black;
-  }
-  
-  .playing {
-    transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
-  }
-  
-  kbd {
-    display: block;
-    font-size: 4rem;
-  }
-  
-  .sound {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    color: #ffc600;
-  }
-  
+} */
+
+.key.k {
+    text-align: center;
+    top: 540px;
+    right: 850px;
+    height: 32px;
+    width: 40px;
+    padding: 10px 12px 20px 10px;
+
+}
+
+.key.s {
+    text-align: center;
+    right: 650px;
+    top: 350px;
+    height: 40px;
+    width: 50px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.key.t {
+    text-align: center; 
+	top: 450px;
+    left: 485px;
+    height: 50px;
+    width: 70px;
+    padding-top: 10px;
+    
+}
+
+.key.c {
+    text-align: center;
+	top: 180px;
+    left: 520px;
+    height: 50px;
+    width: 70px;
+    padding-top: 10px;
+}
+
+.key.r {
+    text-align: center;
+	left: 660px;
+    top: 140px;
+    height: 50px;
+    width: 60px;
+    padding-top: 12px;
+}
+
+.key.ho {
+	text-align: center;
+	right: 675px;
+    top: 210px;
+    height: 50px;
+    width: 85px;
+    padding-top: 10px;
+}
+
+.key.hc {
+    text-align: center;
+	right: 510px;
+    top: 210px;
+    height: 50px;
+    width: 85px;
+    padding-top: 10px;
+
+}
+
+/* .playing {
+	transform: scale(1.12);
+} */
+
+a:link, a:visited {
+    color: #0c72b6;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(82, 105, 250);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
