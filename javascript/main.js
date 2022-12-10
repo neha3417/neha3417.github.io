@@ -1,10 +1,10 @@
 
 
 function playNoise(e) {
-    const keys = document.querySelector(`.key[data-key="${e.keyCode}"]`);
     const sound = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const keys = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
-    if (!audio) return NULL;
+    if (!audio) return null;
 
     keys.classList.add("playing");;
     audio.currentTime = 0;
