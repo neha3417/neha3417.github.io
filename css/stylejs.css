@@ -1,0 +1,141 @@
+
+  html {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    font-style: normal;
+}
+
+h2 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+}
+
+h3 { 
+    font-family: futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 20px; font-style: semibold; 
+    font-variant: normal; 
+    font-weight: 700; line-height: 15.4px; 
+} 
+
+h4 { 
+    font-family: futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 18px; font-style: bold; 
+    font-variant: normal; 
+    font-weight: 400; line-height: 20px; 
+}
+
+h5 { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 18px; font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; line-height: 20px; 
+}
+
+h6 { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 16px; font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; line-height: 20px; 
+}
+
+p { 
+    font-family: open-sans, sans-serif;
+    font-weight: 300; 
+    font-size: 15px;   
+    font-style: normal;
+}
+
+.button {
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    font-style: normal;
+    padding: 1em 1.2em;
+    background: #96a5f3;
+    color: white;
+    font-size: 20px;
+    border-radius: 2em;
+    border: none;
+    border-bottom: 12px solid #0b1f85;
+    cursor: pointer;
+  }
+  
+  body {
+    background-image: ;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  nav {
+    padding: 1.5em;
+    position: sticky;
+    top: 0;
+    font-family: futura-pt, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 21px; font-style: normal; 
+    font-variant: medium; 
+    font-weight: 400; line-height: 20px; 
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: rgb(78, 61, 61);
+    text-decoration: none;
+    padding: .5em 1em;
+} 
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: 0.4rem solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    transition: all 0.07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 0.5rem black;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #ffc600;
+  }
+  
