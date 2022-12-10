@@ -4,7 +4,7 @@ function playNoise(e) {
     const sound = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const keys = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
-    if (!audio) return null;
+    if (!audio) return;
 
     keys.classList.add("playing");;
     audio.currentTime = 0;
